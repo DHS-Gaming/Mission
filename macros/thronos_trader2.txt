@@ -41,9 +41,20 @@ this addAction[
 ];
 
 this addAction[
+	localize ""STR_MAR_Gang_Weapons"",
+	life_fnc_weaponShopMenu,
+	""gang"",
+	0,
+	false,
+	false,
+	"""",
+	' license_civ_dhs && playerSide == civilian'
+];
+
+this addAction[
 	localize ""STR_MAR_Black_Market_Weapons"",
 	life_fnc_weaponShopMenu,
-	""blackmarket_weapons_dhs"",
+	""blackmarket_weapons"",
 	0,
 	false,
 	false,
