@@ -1,0 +1,31 @@
+
+this addAction[
+	""<t color='#ADFF2F'>ATM</t>"",
+	life_fnc_atmMenu,
+	"""",
+	0,
+	FALSE,
+	FALSE,
+	"""",
+	' vehicle player == player && player distance _target < 4 '
+];
+
+this addAction[
+	localize""STR_Shops_Market"",
+	life_fnc_virt_menu,
+	""market""
+];
+
+this addAction[
+	localize ""STR_MAR_General_Store"",
+	life_fnc_weaponShopMenu,
+	""genstore""
+];
+
+this addAction[
+	localize""STR_MAR_Clothing_Store"",
+	life_fnc_clothingMenu,
+	""bruce""
+];
+
+this setVariable[""realname"",""DHS Supermarkt""];
