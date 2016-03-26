@@ -3921,7 +3921,7 @@
 					leader=1;
 					vehicle="C_scientist_F";
 					skill=0.60000002;
-					init="  this enableSimulation false; this allowDamage false; removeVest this; removeHeadgear this; this addAction[localize""STR_MAR_Medical_Assistance"",life_fnc_healHospital]; waitUntil {uniform this == ""U_C_Scientist""}; this setObjectTextureGlobal [0,""textures\notarzt.paa""];  ";
+					init="  this enableSimulation false; this allowDamage false; removeVest this; removeHeadgear this; this addAction[localize""STR_MAR_Medical_Assistance"",life_fnc_healHospital]; waitUntil {uniform this == ""U_C_Scientist""}; this setObjectTextureGlobal [0,""textures\berlin-medic-uniform1024.jpg""];  ";
 				};
 				
 				items=3;
