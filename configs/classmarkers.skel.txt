@@ -1940,7 +1940,7 @@
 
 		class Item238
 		{
-			position[]={5060.5522,248.38628,22046.535};
+			position[]={4876.2573,352.5827,21937.139};
 			name="dhs_basis_marker";
 			text="[DHS] Basis";
 			type="mil_start";
