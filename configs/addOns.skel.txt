@@ -51,3 +51,20 @@
 		"A3_Structures_F_EPA_Items_Tools",
 		"A3_Structures_F_Mil_Flags",
 		"A3_Characters_F_EPC"
+		
+		"A3_Structures_F_Furniture",
+		"A3_Structures_F_Walls",
+		"A3_Structures_F_Civ_Lamps",
+		"A3_Structures_F_Civ_Camping",
+		"A3_Structures_F_Mark_Items_Sport",
+		"A3_Signs_F_AD",
+		"A3_Structures_F_EPC_Civ_Accessories",
+		"A3_Structures_F_Civ_Market",
+		"A3_Structures_F_EPA_Civ_Camping",
+		"A3_Weapons_F_Uniforms",
+		"a3_weapons_f",
+		"A3_Structures_F_Bootcamp_Items_Electronics",
+		"A3_Structures_F_Households_House_Shop01",
+		"A3_Structures_F_Households_Addons",
+		"A3_Structures_F_Civ_InfoBoards",
+		"a3_map_altis"
