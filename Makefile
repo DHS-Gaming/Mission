@@ -30,7 +30,7 @@ bauprojekte:
 	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT2) | tee tmp/Feuerwehr_Athira_Krankenhaus.txt
 	#./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT3) | tee tmp/Rebellen_Drimea_Checkpoint.txt
 	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT4) | tee tmp/Rebellen_Thronos_Base.txt
-	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT5) | tee tmp2/Zivilisten_Kavala_Markt.txt
+	#./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT5) | tee tmp2/Zivilisten_Kavala_Markt.txt
 	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT6) | tee tmp/Rebellen_Atsalis_Base.txt
 
 Lampen_einschalten:
