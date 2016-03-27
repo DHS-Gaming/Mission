@@ -3,7 +3,7 @@ BAUPROJEKT1 = ../Mapping/Zivilisten/Athira/Markt/mission.sqm
 
 BAUPROJEKT2 = ../Mapping/Feuerwehr/Athira/Krankenhaus/mission.sqm
 
-BAUPROJEKT3 = ../Mapping/Rebellen/Drimea/Checkpoint/mission.sqm
+#BAUPROJEKT3 = ../Mapping/Rebellen/Drimea/Checkpoint/mission.sqm
 
 BAUPROJEKT4 = ../Mapping/Rebellen/Thronos/Base/mission.sqm
 
@@ -27,8 +27,9 @@ bauprojekte:
 	mkdir -p tmp
 	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT1) | tee tmp/Zivilisten_Athira_Markt.txt
 	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT2) | tee tmp/Feuerwehr_Athira_Krankenhaus.txt
-	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT3) | tee tmp/Rebellen_Drimea_Checkpoint.txt
+	#./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT3) | tee tmp/Rebellen_Drimea_Checkpoint.txt
 	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT4) | tee tmp/Rebellen_Thronos_Base.txt
+	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT5) | tee tmp/Zivilisten_Kavala_Markt.txt
 	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT6) | tee tmp/Rebellen_Atsalis_Base.txt
 
 Lampen_einschalten:
@@ -37,8 +38,9 @@ Lampen_einschalten:
 	mkdir -p tmp2
 	./bin/.lamps_CRLF_sucks.sh tmp/Zivilisten_Athira_Markt.txt | tee tmp2/Zivilisten_Athira_Markt.txt
 	./bin/.lamps_CRLF_sucks.sh tmp/Feuerwehr_Athira_Krankenhaus.txt | tee tmp2/Feuerwehr_Athira_Krankenhaus.txt
-	./bin/.lamps_CRLF_sucks.sh tmp/Rebellen_Drimea_Checkpoint.txt | tee tmp2/Rebellen_Drimea_Checkpoint.txt
+	#./bin/.lamps_CRLF_sucks.sh tmp/Rebellen_Drimea_Checkpoint.txt | tee tmp2/Rebellen_Drimea_Checkpoint.txt
 	./bin/.lamps_CRLF_sucks.sh tmp/Rebellen_Thronos_Base.txt | tee tmp2/Rebellen_Thronos_Base.txt
+	./bin/.lamps_CRLF_sucks.sh tmp/Zivilisten_Kavala_Markt.txt | tee tmp2/Zivilisten_Kavala_Markt.txt
 	./bin/.lamps_CRLF_sucks.sh tmp/Rebellen_Atsalis_Base.txt | tee tmp2/Rebellen_Atsalis_Base.txt
 
 merge:
