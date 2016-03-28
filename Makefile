@@ -13,7 +13,7 @@ BAUPROJEKT6 = ../Mapping/Rebellen/Atsalis/Base/mission.sqm
 
 MACROS = ./macros
 
-FIRST_ID_CLASS_VEHICLES = 260
+FIRST_ID_CLASS_VEHICLES = 500
 
 all: bauprojekte Lampen_einschalten merge merge_ohne_Bauprojekte
 
@@ -30,7 +30,7 @@ bauprojekte:
 	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT2) | tee tmp/Feuerwehr_Athira_Krankenhaus.txt
 	#./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT3) | tee tmp/Rebellen_Drimea_Checkpoint.txt
 	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT4) | tee tmp/Rebellen_Thronos_Base.txt
-	#./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT5) | tee tmp2/Zivilisten_Kavala_Markt.txt
+	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT5) | tee tmp2/Zivilisten_Kavala_Markt.txt
 	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT6) | tee tmp/Rebellen_Atsalis_Base.txt
 
 Lampen_einschalten:
@@ -43,25 +43,34 @@ Lampen_einschalten:
 	./bin/.lamps_CRLF_sucks.sh tmp/Rebellen_Thronos_Base.txt | tee tmp2/Rebellen_Thronos_Base.txt
 	./bin/.lamps_CRLF_sucks.sh tmp/Rebellen_Atsalis_Base.txt | tee tmp2/Rebellen_Atsalis_Base.txt
 
+MISSION = ../Altis/Altis_Life.Altis/mission.sqm
+
+VANILLA = ../Altis/Altis_Life.Altis/mission_vanilla.sqm
+
+GLUE_SCRIPT = bin/glue.py
+GLUE_PARAM1 = "configs/mission.sqm.skel.txt" "configs/addOns.skel.txt" "configs/addOnsAuto.skel.txt"
+GLUE_PARAM2 = "configs/classgroups.skel.txt" "configs/classmarkers.skel.txt"
+
+GLUE = $(GLUE_SCRIPT) $(GLUE_PARAM1) $(GLUE_PARAM2)
+
+#
+# create the mission that will run on our modded server
+#
 merge:
 	@chmod 0755 bin/glue.py
-	@bin/glue.py \
-		"configs/mission.sqm.skel.txt" \
-		"configs/addOns.skel.txt" \
-		"configs/addOnsAuto.skel.txt" \
-		"configs/classgroups.skel.txt" \
-		"configs/classmarkers.skel.txt" \
-		"configs/classvehicles.skel.txt $(shell ls tmp2/*.txt)" "$(FIRST_ID_CLASS_VEHICLES)" "$(MACROS)" | \
-			tee ../Altis/Altis_Life.Altis/mission.sqm
+	@$(GLUE) \
+		"configs/classvehicles.skel.txt $(shell ls tmp2/*.txt)" \
+		"$(FIRST_ID_CLASS_VEHICLES)" \
+		"$(MACROS)" | tee $(MISSION)
+	@sed -i 's,\r,,g;' $(MISSION)
 
+#
+# re-create the original Altis Life mission from the pieces (this is for debugging and mapping purposes)
+#
 merge_ohne_Bauprojekte:
 	@chmod 0755 bin/glue.py
-	@bin/glue.py \
-		"configs/mission.sqm.skel.txt" \
-		"configs/addOns.skel.txt" \
-                "configs/addOnsAuto.skel.txt" \
-                "configs/classgroups.skel.txt" \
-                "configs/classmarkers.skel.txt" \
-                "configs/classvehicles.skel.txt" "$(FIRST_ID_CLASS_VEHICLES)" "$(MACROS)" | \
-                        tee ../Altis/Altis_Life.Altis/mission_vanilla.sqm
-
+	@$(GLUE) \
+		"configs/classvehicles.skel.txt" \
+		"$(FIRST_ID_CLASS_VEHICLES)" \
+		"$(MACROS)" | tee $(VANILLA)
+	@sed -i 's,\r,,g;' $(VANILLA)

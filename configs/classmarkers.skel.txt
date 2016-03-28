@@ -304,18 +304,18 @@
 			colorName="ColorWhite";
 		};
 		class Item39
-		{
-			position[]={3641.6143,10.131021,13129.252};
+		{			
+			position[]={3709.2383,11.595608,13143.51};
 			name="civ_car_1";
 			type="Empty";
-			angle=290;
+			angle=180;
 		};
 		class Item40
 		{
-			position[]={3658.6492,10.312168,13128.919};
+			position[]={3671.7607,10.241474,13144.947};
 			name="civ_car_1_1";
 			type="Empty";
-			angle=290;
+			angle=180;			
 		};
 		class Item41
 		{
