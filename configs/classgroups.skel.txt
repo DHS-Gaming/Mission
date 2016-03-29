@@ -4440,7 +4440,7 @@
 				{
 					position[]={14312.836,26.803869,18623.297};
 					azimut=160;
-					offsetY=20.5;
+					offsetY=20;
 					special="NONE";
 					id=262;
 					side="WEST";
