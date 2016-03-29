@@ -3423,7 +3423,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_1";
+					text="Tankstelle Kavala Nord";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3443,7 +3443,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_2";
+					text="Tankstelle Kavala Suedost";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3463,7 +3463,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_3";
+					text="Tankstelle Stadion Suedwest";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3483,7 +3483,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_04";
+					text="Tankstelle Synneforos Sued";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3503,7 +3503,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_06";
+					text="Tankstelle Stadion Nord";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3524,7 +3524,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_07";
+					text="Tankstelle Topelia West";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3544,7 +3544,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_08";
+					text="Tankstelle Syrta";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3564,7 +3564,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_09";
+					text="Tankstelle Agios Dionysios";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3584,7 +3584,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_10";
+					text="Tankstelle Zaros";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3604,7 +3604,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_11";
+					text="Tankstelle Neochori West";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3624,7 +3624,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_12";
+					text="Tankstelle Lakka";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3644,7 +3644,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_13";
+					text="Tankstelle Flughafen";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3664,7 +3664,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_14";
+					text="Tankstelle Athira Sued";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3684,7 +3684,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_15";
+					text="Tankstelle Flughafen Nord";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3704,7 +3704,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_16";
+					text="Tankstelle Flughafen NE";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3724,7 +3724,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_17";
+					text="Tankstelle Pyrgos";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3744,7 +3744,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_18";
+					text="Tankstelle Anthrakia Sued";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3764,7 +3764,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_19";
+					text="Tankstelle Pyrgos Nord";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3784,7 +3784,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_20";
+					text="Tankstelle Chalkeia";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3804,7 +3804,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_21";
+					text="Tankstelle Paros Sued";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3824,7 +3824,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_22";
+					text="Tankstelle Selakano Nord";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3844,7 +3844,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_23";
+					text="Tankstelle Ioannina";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3864,7 +3864,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_24";
+					text="Tankstelle Sofia";
 					init="this enableSimulation false; this allowDamage false; this addAction[""Tankstelle ausrauben"",life_fnc_robShops]; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -4429,8 +4429,31 @@
 				};
 			};
 		};
+
+		class Item130
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14312.836,26.803869,18623.297};
+					azimut=160;
+					offsetY=20.5;
+					special="NONE";
+					id=262;
+					side="WEST";
+					vehicle="B_RangeMaster_F";
+					leader=1;
+					skill=0.60000002;
+					text="athira_hospital_helipad_npc_001";
+					init="  this enableSimulation false; this allowDamage false; removeVest this; removeHeadgear this;  XOXO_MACRO_athira_hospital_trader2.txt_XOXO_MACRO  ";
+				};
+			};
+		};
 		
 		//
 		// XOXO Class Group Item Counter
 		//
-		items=130;
+		items=131;
