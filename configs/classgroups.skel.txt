@@ -4480,8 +4480,418 @@
 				};
 			};
 		};
-		
+
+		//
+		// Athira Krankenhaus Privater Sicherheitsdienst
+		//
+		class Item132
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14298.895,26.30397,18621.629};
+					azimut=220;
+					offsetY=8;
+					special="NONE";
+					id=263;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item133
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14326.25,27.217445,18618.365};
+					azimut=90;
+					offsetY=20.200001;
+					special="NONE";
+					id=264;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item134
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14328.576,27.226807,18622.438};
+					azimut=90;
+					offsetY=20.200001;
+					special="NONE";
+					id=265;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item135
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14416.246,29.471556,18643.217};
+					azimut=270;
+					special="NONE";
+					id=266;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item136
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14387.49,27.897551,18600.318};
+					azimut=320;
+					special="NONE";
+					id=267;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item137
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14429.064,33.250549,18783.582};
+					azimut=270;
+					special="NONE";
+					id=268;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item138
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14343.948,35.422031,18809.18};
+					azimut=90;
+					special="NONE";
+					id=269;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item139
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14318.153,34.875389,18800.898};
+					azimut=90;
+					special="NONE";
+					id=270;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item140
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14298.72,28.513859,18702.656};
+					azimut=90;
+					special="NONE";
+					id=271;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item141
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14254.811,26.180166,18644.77};
+					azimut=320;
+					offsetY=1.5;
+					special="NONE";
+					id=272;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item142
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14296.877,26.267462,18622.6};
+					azimut=230;
+					offsetY=8;
+					special="NONE";
+					id=273;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item143
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14268.592,26.287125,18650.635};
+					azimut=135;
+					offsetY=1.5;
+					special="NONE";
+					id=274;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item144
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14257.902,26.116823,18640.906};
+					azimut=135;
+					offsetY=1.5;
+					special="NONE";
+					id=275;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item145
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14260.315,26.3881,18652.451};
+					azimut=240;
+					offsetY=1.5;
+					special="NONE";
+					id=276;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item146
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14391.66,28.455896,18618.27};
+					azimut=320;
+					special="NONE";
+					id=277;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item147
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14397.74,28.886318,18631.84};
+					azimut=320;
+					special="NONE";
+					id=278;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item148
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14401.061,29.392374,18647.039};
+					azimut=270;
+					special="NONE";
+					id=279;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item149
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14314.814,34.112942,18790.592};
+					azimut=90;
+					special="NONE";
+					id=280;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		class Item150
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14319.461,33.11644,18780.721};
+					azimut=210;
+					special="NONE";
+					id=281;
+					side="GUER";
+					vehicle="I_G_Sharpshooter_F";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+				};
+			};
+		};
 		//
 		// XOXO Class Group Item Counter
 		//
-		items=132;
+		items=151;

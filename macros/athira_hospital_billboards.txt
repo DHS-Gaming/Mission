@@ -1,0 +1,1 @@
+this setObjectTextureGlobal[0, ""textures\athira_hospital_billboards.jpg""];

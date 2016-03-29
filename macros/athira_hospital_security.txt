@@ -1,0 +1,41 @@
+
+this disableAI ""MOVE"";
+this disableAI ""AIMINGERROR"";
+this setBehaviour ""CARELESS"";
+
+removeallWeapons this;
+removeBackpack this;
+removeVest this;
+removeHeadgear this;
+
+this addUniform ""U_Marshal"";
+this addVest ""V_TacVest_blk_POLICE"";
+this addBackpack ""B_Bergen_blk"";
+
+this addHeadgear ""H_Beret_blk"";
+this addGoggles ""G_Tactical_Clear"";
+
+this addItem ""NVGoggles_OPFOR"";
+this assignItem ""NVGoggles_OPFOR"";
+
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+this addMagazine ""20Rnd_762x51_Mag"";
+
+this addWeapon ""srifle_DMR_03_DMS_F"";
