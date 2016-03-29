@@ -3335,7 +3335,7 @@
 					special="NONE";
 					id=208;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -3349,7 +3349,7 @@
 					special="NONE";
 					id=209;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="medic_3";
@@ -3362,7 +3362,7 @@
 					special="NONE";
 					id=210;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="medic_4";
@@ -3375,7 +3375,7 @@
 					special="NONE";
 					id=211;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="medic_2";
@@ -4430,6 +4430,9 @@
 			};
 		};
 
+		//
+		// oben am Helipad Athira Krankenhaus
+		//
 		class Item130
 		{
 			side="WEST";
@@ -4440,7 +4443,7 @@
 				{
 					position[]={14312.836,26.803869,18623.297};
 					azimut=160;
-					offsetY=20;
+					offsetY=20.2;
 					special="NONE";
 					id=262;
 					side="WEST";
@@ -4454,6 +4457,31 @@
 		};
 		
 		//
+		// Hinten am Helipad fuer gekaufte Helis, Athira Krankenhaus
+		//
+		class Item131
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={14364.685,28.150429,18646.338};
+					azimut=160;
+					special="NONE";
+					id=262;
+					side="WEST";
+					vehicle="B_RangeMaster_F";
+					leader=1;
+					skill=0.60000002;
+					text="athira_hospital_helipad_npc_002";
+					init="  this enableSimulation false; this allowDamage false; removeVest this; removeHeadgear this;  XOXO_MACRO_athira_hospital_trader3.txt_XOXO_MACRO  ";
+				};
+			};
+		};
+		
+		//
 		// XOXO Class Group Item Counter
 		//
-		items=131;
+		items=132;
