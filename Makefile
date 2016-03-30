@@ -1,76 +1,51 @@
 
-BAUPROJEKT1 = ../Mapping/Zivilisten/Athira/Markt/mission.sqm
-
-BAUPROJEKT2 = ../Mapping/Feuerwehr/Athira/Krankenhaus/mission.sqm
-
-#BAUPROJEKT3 = ../Mapping/Rebellen/Drimea/Checkpoint/mission.sqm
-
-BAUPROJEKT4 = ../Mapping/Rebellen/Thronos/Base/mission.sqm
-
-BAUPROJEKT5 = ../Mapping/Zivilisten/Kavala/Markt/mission.sqm
-
-BAUPROJEKT6 = ../Mapping/Rebellen/Atsalis/Base/mission.sqm
+BAUPROJEKTE = ../Mapping
 
 MACROS = ./macros
 
-FIRST_ID_CLASS_VEHICLES = 500
+FIRST_ID_CLASS_VEHICLES = 5000
 
-all: bauprojekte Lampen_einschalten merge merge_ohne_Bauprojekte
+all: bauprojekte Lampen_einschalten mission.sqm mission_vanilla.sqm
 
 clean:
 	rm -rf tmp
 	rm -rf tmp2
 
-bauprojekte:
+bauprojekte: clean
 	cat bin/slice.sh | tr -d '\r' | tee bin/.slice_CRLF_sucks.sh
 	chmod 0755 bin/.slice_CRLF_sucks.sh
 	mkdir -p tmp
-	mkdir -p tmp2
-	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT1) | tee tmp/Zivilisten_Athira_Markt.txt
-	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT2) | tee tmp/Feuerwehr_Athira_Krankenhaus.txt
-	#./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT3) | tee tmp/Rebellen_Drimea_Checkpoint.txt
-	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT4) | tee tmp/Rebellen_Thronos_Base.txt
-	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT5) | tee tmp2/Zivilisten_Kavala_Markt.txt
-	./bin/.slice_CRLF_sucks.sh $(BAUPROJEKT6) | tee tmp/Rebellen_Atsalis_Base.txt
+	find $(BAUPROJEKTE) -type f -ipath '*/mission*.sqm' | \
+		xargs -n1 --no-run-if-empty ./bin/.slice_CRLF_sucks.sh | \
+			tee tmp/mission.txt
 
 Lampen_einschalten:
 	cat bin/lamps.sh | tr -d '\r' | tee bin/.lamps_CRLF_sucks.sh
 	chmod 0755 bin/.lamps_CRLF_sucks.sh
 	mkdir -p tmp2
-	./bin/.lamps_CRLF_sucks.sh tmp/Zivilisten_Athira_Markt.txt | tee tmp2/Zivilisten_Athira_Markt.txt
-	./bin/.lamps_CRLF_sucks.sh tmp/Feuerwehr_Athira_Krankenhaus.txt | tee tmp2/Feuerwehr_Athira_Krankenhaus.txt
-	#./bin/.lamps_CRLF_sucks.sh tmp/Rebellen_Drimea_Checkpoint.txt | tee tmp2/Rebellen_Drimea_Checkpoint.txt
-	./bin/.lamps_CRLF_sucks.sh tmp/Rebellen_Thronos_Base.txt | tee tmp2/Rebellen_Thronos_Base.txt
-	./bin/.lamps_CRLF_sucks.sh tmp/Rebellen_Atsalis_Base.txt | tee tmp2/Rebellen_Atsalis_Base.txt
+	./bin/.lamps_CRLF_sucks.sh tmp/mission.txt | tee tmp2/mission.txt
 
-MISSION = ../Altis/Altis_Life.Altis/mission.sqm
-
-VANILLA = ../Altis/Altis_Life.Altis/mission_vanilla.sqm
-
-GLUE_SCRIPT = bin/glue.py
-GLUE_PARAM1 = "configs/mission.sqm.skel.txt" "configs/addOns.skel.txt" "configs/addOnsAuto.skel.txt"
-GLUE_PARAM2 = "configs/classgroups.skel.txt" "configs/classmarkers.skel.txt"
-
-GLUE = $(GLUE_SCRIPT) $(GLUE_PARAM1) $(GLUE_PARAM2)
-
-#
-# create the mission that will run on our modded server
-#
-merge:
+mission.sqm:
 	@chmod 0755 bin/glue.py
-	@$(GLUE) \
-		"configs/classvehicles.skel.txt $(shell ls tmp2/*.txt)" \
-		"$(FIRST_ID_CLASS_VEHICLES)" \
-		"$(MACROS)" | tee $(MISSION)
-	@sed -i 's,\r,,g;' $(MISSION)
+	@bin/glue.py \
+		"configs/mission.sqm.skel.txt" \
+		"configs/addOns.skel.txt" \
+		"configs/addOnsAuto.skel.txt" \
+		"configs/classgroups.skel.txt" \
+		"configs/classmarkers.skel.txt" \
+		"configs/classvehicles.skel.txt tmp2/mission.txt" \
+		"$(FIRST_ID_CLASS_VEHICLES)" "$(MACROS)" | \
+	tee ../Altis/Altis_Life.Altis/$(@)
 
-#
-# re-create the original Altis Life mission from the pieces (this is for debugging and mapping purposes)
-#
-merge_ohne_Bauprojekte:
+mission_vanilla.sqm:
 	@chmod 0755 bin/glue.py
-	@$(GLUE) \
+	@bin/glue.py \
+		"configs/mission.sqm.skel.txt" \
+		"configs/addOns.skel.txt" \
+		"configs/addOnsAuto.skel.txt" \
+		"configs/classgroups.skel.txt" \
+		"configs/classmarkers.skel.txt" \
 		"configs/classvehicles.skel.txt" \
-		"$(FIRST_ID_CLASS_VEHICLES)" \
-		"$(MACROS)" | tee $(VANILLA)
-	@sed -i 's,\r,,g;' $(VANILLA)
+		"$(FIRST_ID_CLASS_VEHICLES)" "$(MACROS)" | \
+	tee ../Altis/Altis_Life.Altis/$(@)
+

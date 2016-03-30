@@ -3335,12 +3335,12 @@
 					special="NONE";
 					id=208;
 					side="GUER";
-					vehicle="I_soldier_UAV_F";
+					vehicle="I_medic_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="medic_1";
-					description="EMS Medic";
+					description="Notarzt";
 				};
 				class Item1
 				{
@@ -3349,11 +3349,11 @@
 					special="NONE";
 					id=209;
 					side="GUER";
-					vehicle="I_soldier_UAV_F";
+					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="medic_3";
-					description="EMS Medic";
+					description="Notarzt";
 				};
 				class Item2
 				{
@@ -3362,11 +3362,11 @@
 					special="NONE";
 					id=210;
 					side="GUER";
-					vehicle="I_soldier_UAV_F";
+					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="medic_4";
-					description="EMS Medic";
+					description="Notarzt";
 				};
 				class Item3
 				{
@@ -3375,11 +3375,11 @@
 					special="NONE";
 					id=211;
 					side="GUER";
-					vehicle="I_soldier_UAV_F";
+					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="medic_2";
-					description="EMS Medic";
+					description="Notarzt";
 				};
 			};
 		};
