@@ -8,7 +8,6 @@ removeBackpack this;
 removeVest this;
 removeHeadgear this;
 
-this addUniform ""U_Marshal"";
 this addVest ""V_TacVest_blk_POLICE"";
 this addBackpack ""B_Bergen_blk"";
 
@@ -39,3 +38,5 @@ this addMagazine ""20Rnd_762x51_Mag"";
 this addMagazine ""20Rnd_762x51_Mag"";
 
 this addWeapon ""srifle_DMR_03_DMS_F"";
+
+this setVariable[""realname"",""Sicherheitsdienst""];
