@@ -1,8 +1,14 @@
 #!/usr/bin/env python
 
+#
+# like glue. now with 100 percent more regex loving. because file I/O is expensive. and O(n) algorithms are stupid :)
+#
+
 import sys
 import glob
 import os
+
+import re
 
 def process_addon(addons_file_list):
     _addons = []
@@ -67,47 +73,19 @@ def load_and_calculate_itemcount(file_list, first_itemid):
 """ % load_file)
 
         with open(load_file, "r") as file_reader:
+            regex = re.compile(r"id=[0-9]*;", re.IGNORECASE)
+            rege2 = re.compile(r"class Item[0-9]*", re.IGNORECASE)
+
             for line in file_reader:
-
-                _itemid_patched = line
-
-                #
-                # try to patch the id= property in the class Item
-                #
                 if line.find("id=") > 0:
-                    for i in range(5000):
-                        if line.find("id=%s;" % i) > 0:
-                            _itemid_patched = line.replace("id=%s;" % i , "id=%s;" % _itemid_counter)
-                            _itemid_counter = _itemid_counter + 1
+                    line = regex.sub("id=%s;" % _itemid_counter, line)
+                    _itemid_counter = _itemid_counter + 1
 
-                _item_patched = _itemid_patched
-
-                #
-                # try to patch the classname of the Item from class Item0 to class ItemX where X is managed by us
-                #
                 if line.find("class Item") > 0:
-                    for j in range(5000):
-                        if line.find("class Item%s{" % j) > 0:
-                            _item_patched = _itemid_patched.replace("class Item%s{" % j, "class Item%s{" % _item_counter)
-                            _item_counter = _item_counter + 1
+                    line = rege2.sub("class Item%s" % _item_counter, line)
+                    _item_counter = _item_counter + 1
 
-                        if line.find("class Item%s\n" % j) > 0:
-                            _item_patched = _itemid_patched.replace("class Item%s\n" % j, "class Item%s\n" % _item_counter)
-                            _item_counter = _item_counter + 1
-
-                        if line.find("class Item%s\r" % j) > 0:
-                            _item_patched = _itemid_patched.replace("class Item%s\r" % j, "class Item%s\r" % _item_counter)
-                            _item_counter = _item_counter + 1
-
-                        if line.find("class Item%s\t" % j) > 0:
-                            _item_patched = _itemid_patched.replace("class Item%s\t" % j, "class Item%s\t" % _item_counter)
-                            _item_counter = _item_counter + 1
-
-                        if line.find("class Item%s " % j) > 0:
-                            _item_patched = _itemid_patched.replace("class Item%s " % j, "class Item%s " % _item_counter)
-                            _item_counter = _item_counter + 1
-
-                _text.append(_item_patched)
+                _text.append(line)
 
         _text.append("""
                 //

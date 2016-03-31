@@ -3,7 +3,7 @@ BAUPROJEKTE = ../Mapping
 
 MACROS = ./macros
 
-FIRST_ID_CLASS_VEHICLES = 5000
+FIRST_ID_CLASS_VEHICLES = 500
 
 all: bauprojekte Lampen_einschalten mission.sqm mission_vanilla.sqm
 
