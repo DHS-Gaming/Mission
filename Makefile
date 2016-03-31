@@ -1,6 +1,8 @@
 
 BAUPROJEKTE = ../Mapping
 
+BAUPROJEKTE_BLACKLIST = "Zivilisten/Autobahn Rebellen/Drimea/Checkpoint"
+
 MACROS = ./macros
 
 FIRST_ID_CLASS_VEHICLES = 500
@@ -16,7 +18,7 @@ bauprojekte: clean
 	chmod 0755 bin/.slice_CRLF_sucks.sh
 	mkdir -p tmp
 	find $(BAUPROJEKTE) -type f -ipath '*/mission*.sqm' | \
-		xargs -n1 --no-run-if-empty ./bin/.slice_CRLF_sucks.sh | \
+		xargs -n1 --no-run-if-empty ./bin/.slice_CRLF_sucks.sh $(BAUPROJEKTE_BLACKLIST) | \
 			tee tmp/mission.txt
 
 Lampen_einschalten:
