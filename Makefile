@@ -1,9 +1,7 @@
 
 BAUPROJEKTE = ../Mapping
 
-# BAUPROJEKTE_BLACKLIST = "Zivilisten/Autobahn Rebellen/Drimea/Checkpoint"
-
-BAUPROJEKTE_BLACKLIST = "XXX_XXX_XXX"
+BAUPROJEKTE_BLACKLIST = "Zivilisten/Autobahn_OLD001 Rebellen/Drimea/Checkpoint"
 
 MACROS = ./macros
 
