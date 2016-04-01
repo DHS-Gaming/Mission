@@ -1,7 +1,9 @@
 
 BAUPROJEKTE = ../Mapping
 
-BAUPROJEKTE_BLACKLIST = "Zivilisten/Autobahn Rebellen/Drimea/Checkpoint"
+# BAUPROJEKTE_BLACKLIST = "Zivilisten/Autobahn Rebellen/Drimea/Checkpoint"
+
+BAUPROJEKTE_BLACKLIST = "BLACKLISTED_BLACKLISTED_BLACKLISTED"
 
 MACROS = ./macros
 
@@ -17,7 +19,7 @@ bauprojekte: clean
 	cat bin/slice.sh | tr -d '\r' | tee bin/.slice_CRLF_sucks.sh
 	chmod 0755 bin/.slice_CRLF_sucks.sh
 	mkdir -p tmp
-	find $(BAUPROJEKTE) -type f -ipath '*/mission*.sqm' | \
+	find $(BAUPROJEKTE) -type f -ipath '*/mission*.sqm' | sort | uniq \
 		xargs -n1 --no-run-if-empty ./bin/.slice_CRLF_sucks.sh $(BAUPROJEKTE_BLACKLIST) | \
 			tee tmp/mission.txt
 

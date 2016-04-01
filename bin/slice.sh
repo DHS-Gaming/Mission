@@ -5,7 +5,7 @@ BLACKLIST="${1}"
 FILE="${2}"
 
 for BLACKLISTED in ${BLACKLIST}; do
-  echo "${FILE}" | grep "${BLACKLISTED}" && exit 0
+  echo "// WARNING bin/slice.sh FILE IS BLACKLISTED: ${FILE}" | grep "${BLACKLISTED}" && exit 0
 done
 
 echo "//"
