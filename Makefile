@@ -1,7 +1,7 @@
 
 BAUPROJEKTE = ../Mapping
 
-BAUPROJEKTE_BLACKLIST = "Zivilisten/Autobahn_OLD001"
+BAUPROJEKTE_BLACKLIST = "XXX_XXX_XXX"
 
 MACROS = ./macros
 
