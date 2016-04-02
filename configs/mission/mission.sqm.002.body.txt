@@ -1,0 +1,43 @@
+
+	addOns[]= {
+		%%%ADDONS%%%
+	};
+	
+	addOnsAuto[]=
+	{
+		%%%ADDONSAUTO%%%
+	};
+	
+	//
+	// This is mostly NPCs for all the factions.
+	//
+	// NPCs can be shops, traders, garages, etc.
+	//
+	// The stuff for this class comes from a manually managed file, classgroups.txt
+	//
+	class Groups {
+		%%%CLASSGROUPS%%%
+	};
+
+	//
+	// This is buildings. Buildings are vehicles in Arma3. We use a script called 'glue.py' to add all Xcam missions.
+	//
+	// We also add classvehicles.txt which contains all the buildings provided to us by Altislife.
+	//
+	// And we patch itemID and class ItemXXX while we do this, so this is kinda cool.
+	//
+	class Vehicles {
+		%%%CLASSVEHICLES%%%
+	};
+
+	//
+	// This is map markers. Map markers are added from classmarkers.txt verbatim.
+	//
+	class Markers {
+		%%%CLASSMARKERS%%%
+	};
+
+};
+//
+// end of class Mission
+//

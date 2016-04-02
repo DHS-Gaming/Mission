@@ -8,7 +8,7 @@
 		//
 
 		//
-		// Begin of Class Vehicles for base mission.sqm (from classvehicles.skel.txt)
+		// Begin of Class Vehicles for base mission.sqm (from classvehicles.txt)
 		//
 		
 		class Item0
@@ -5767,5 +5767,5 @@
 		};
 
 		//
-		// End of Class Vehicles for base mission.sqm (from classvehicles.skel.txt)
+		// End of Class Vehicles for base mission.sqm (from classvehicles.txt)
 		//
