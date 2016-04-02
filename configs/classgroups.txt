@@ -4502,7 +4502,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4524,7 +4524,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4546,7 +4546,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4567,7 +4567,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4588,7 +4588,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4609,7 +4609,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4630,7 +4630,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4651,7 +4651,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4672,7 +4672,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4694,7 +4694,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4716,7 +4716,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4738,7 +4738,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4760,7 +4760,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4782,7 +4782,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4803,7 +4803,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4824,7 +4824,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4845,7 +4845,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4866,7 +4866,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
@@ -4887,7 +4887,7 @@
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
-					init="  this enableSimulation true; this allowDamage false; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
+					init="  this enableSimulation true; this allowDamage true; XOXO_MACRO_athira_hospital_security.txt_XOXO_MACRO  ";
 				};
 			};
 		};
